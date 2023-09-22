@@ -16,3 +16,13 @@ create a .env file which have three values
 1)run "npm install" in terminal of current directory.
 2)start the app by "node app.js" in terminal.
 3)open postman send queries on localhost with PORT given in .env file.
+
+//functions
+1)GET /posts - Get all blog posts.
+2)GET /posts/:id - Get a specific blog post by ID.
+3)POST /posts - Create a new blog post.
+4)PUT /posts/:id - Update an existing blog post.
+5)DELETE /posts/:id - Delete a blog post.
+
+tested result are in api_result folder.
+
